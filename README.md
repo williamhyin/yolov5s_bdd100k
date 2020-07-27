@@ -1,6 +1,34 @@
 <a href="https://apps.apple.com/app/id1452689527" target="_blank">
 <img src="https://user-images.githubusercontent.com/26833433/82944393-f7644d80-9f4f-11ea-8b87-1a5b04f555f1.jpg" width="1000"></a>
-&nbsp
+
+
+
+
+
+## YOLO V5s Bdd100k training
+
+The following documents is necessary for my project:
+
+- models/custom_yolov5s.yaml
+- models/uc_data.yaml
+- data/bdd100k.names
+- weights/yolov5s.pt
+- yolov5s_training_bdd100k.ipynb
+- Bdd_preprocessing.ipynb
+
+The process documents of training with pre-trained weights located in the `runs/exp0_yolov5s_bdd_prew`
+
+The process documents of training from scratch located in the `yolov5s_bdd100k/runs/exp1_yolov5s_bdd`
+
+The yolov5s model arcitecture image is `yolov5s_bdd.png`
+
+The 4k test.video was shown in the bilibili website: **https://www.bilibili.com/video/BV1sz4y1Q7wi/**
+
+I provide the preprocessed Bdd100k dataset: **https://1drv.ms/u/s!An7G4eYRvZzthI5HCnVaEGvrdiDWAw?e=v6C4US**
+
+
+
+## YOLO V5 Originial Readme 
 
 This repository represents Ultralytics open-source research into future object detection methods, and incorporates our lessons learned and best practices evolved over training thousands of models on custom client datasets with our previous YOLO repository https://github.com/ultralytics/yolov3. **All code and models are under active development, and are subject to modification or deletion without notice.** Use at your own risk.
 
