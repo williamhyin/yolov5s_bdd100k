@@ -1,0 +1,6 @@
+train: bdd100k/images/trains
+val: bdd100k/images/valids
+test: bdd100k/images/test
+
+nc: 13
+names: ['person','rider','car','bus','truck','bike','motor','tl_green','tl_red','tl_yellow','tl_none','t_sign','train']
